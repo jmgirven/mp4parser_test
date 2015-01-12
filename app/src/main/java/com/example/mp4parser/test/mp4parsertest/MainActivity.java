@@ -89,7 +89,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Log.d(TAG, "startTrim: dest: " + dest.getAbsolutePath());
                 Log.d(TAG, "startTrim: startMs: " + startMs);
                 Log.d(TAG, "startTrim: endMs: " + endMs);
-                ShortenExample.startTrim(src, dest, startMs, endMs);
+                SimpleShortenExample.startTrim(src, dest, startMs, endMs);
             } catch (IOException e) {
                 e.printStackTrace();
             }
