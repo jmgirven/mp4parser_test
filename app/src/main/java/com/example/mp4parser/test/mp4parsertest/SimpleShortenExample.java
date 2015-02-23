@@ -22,7 +22,6 @@ import java.util.List;
  */
 public class SimpleShortenExample {
 
-
     public static void startTrim(File src, File dst, int startMs, int endMs) throws IOException {
         Movie movie = MovieCreator.build(new FileDataSourceImpl(src));
         //Movie movie = new MovieCreator().build(new RandomAccessFile("/home/sannies/suckerpunch-distantplanet_h1080p/suckerpunch-distantplanet_h1080p.mov", "r").getChannel());

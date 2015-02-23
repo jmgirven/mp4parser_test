@@ -16,6 +16,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+import org.ffmpeg.android;
+
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
