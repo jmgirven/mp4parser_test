@@ -16,8 +16,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.ffmpeg.android;
-
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
@@ -71,19 +69,24 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         @Override
         protected Void doInBackground(Void... nothing) {
+            Log.d(TAG, "start doInBackground");
             File moviesDir = Environment.getExternalStoragePublicDirectory(
                     Environment.DIRECTORY_MOVIES
             );
+            Log.d(TAG, "got movieDir from Environment");
 
             String filePrefix = "GOPR1008";
             String fileExtn = ".MP4";
             String fileName = filePrefix + fileExtn;
 
             try {
+
                 InputStream inputStream = getAssets().open(fileName);
+                Log.d(TAG, "opened imput stream");
                 File src = new File(moviesDir, fileName);
 
                 storeFile(inputStream, src);
+                Log.d(TAG, "stored file");
 
                 File dest = new File(moviesDir, filePrefix + "_1" + fileExtn);
 
@@ -91,7 +94,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Log.d(TAG, "startTrim: dest: " + dest.getAbsolutePath());
                 Log.d(TAG, "startTrim: startMs: " + startMs);
                 Log.d(TAG, "startTrim: endMs: " + endMs);
-                SimpleShortenExample.startTrim(src, dest, startMs, endMs);
+                FFmpegExample.startTrim(MainActivity.this, src, dest, startMs, endMs);
             } catch (IOException e) {
                 e.printStackTrace();
             }

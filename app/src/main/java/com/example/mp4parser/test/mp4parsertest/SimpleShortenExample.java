@@ -17,6 +17,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+
+
 /**
  * Shortens/Crops a track
  */
@@ -80,15 +82,15 @@ public class SimpleShortenExample {
             movie.addTrack(new AppendTrack(new CroppedTrack(track, startSample1, endSample1)));
         }
         //long start1 = System.currentTimeMillis();
-        Container out = new DefaultMp4Builder().build(movie);
+        //Container out = new DefaultMp4Builder().build(movie);
         //long start2 = System.currentTimeMillis();
-        FileOutputStream fos = new FileOutputStream(dst);
+        //FileOutputStream fos = new FileOutputStream(dst);
         //FileOutputStream fos = new FileOutputStream(String.format("output-%f-%f.mp4", startTime1, endTime1));
-        FileChannel fc = fos.getChannel();
-        out.writeContainer(fc);
+        //FileChannel fc = fos.getChannel();
+        //out.writeContainer(fc);
 
-        fc.close();
-        fos.close();
+        //fc.close();
+        //fos.close();
         //long start3 = System.currentTimeMillis();
         //System.err.println("Building IsoFile took : " + (start2 - start1) + "ms");
         //System.err.println("Writing IsoFile took  : " + (start3 - start2) + "ms");
