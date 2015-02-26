@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/exploded-aar/mp4parser_test/android-ffmpeg-java/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e48789e2b0ea34b798b020763220a433ab898bf2">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/classes-ff5e1f284688bce01ad2be4834696dcdb8e7b82f.jar" />
+    </item>
+    <item
+        jar="/home/enrico/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.2/7dede91c0c36b1265fc99c55283b90ed2be144c8/aspectjrt-1.8.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7dede91c0c36b1265fc99c55283b90ed2be144c8">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/aspectjrt-1.8.2-25ee232ab3ecd825aa7cd69a958fef5e52b46923.jar" />
+    </item>
+    <item
+        jar="/home/enrico/.gradle/caches/modules-2/files-2.1/com.googlecode.mp4parser/isoparser/1.0.5.4/232e5130b709e6cc2ac4c4e5c5212a89929ab592/isoparser-1.0.5.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="232e5130b709e6cc2ac4c4e5c5212a89929ab592">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/isoparser-1.0.5.4-32ef22870802e86fd9b5a16bc9f8202fa9654811.jar" />
+    </item>
+    <item
+        jar="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3929a0070dc04f4bb58bbedeb3bcef4ef5992634.jar" />
+    </item>
+    <item
+        jar="/home/enrico/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c00df73b6d44c912dd5e781e798b7d7a39cbf90e.jar" />
+    </item>
+    <item
+        jar="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/classes-757237dfa758d98082520f3243c939cb298c4b55.jar" />
+    </item>
+    <item
+        jar="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/classes-042874489df5c02478998b1aff9d9ad61a161126.jar" />
+    </item>
+    <item
+        jar="/home/enrico/AndroidStudioProjects/mp4parser_test/app/libs/android-ffmpeg-library.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="64e0e87f623749bdeb39ce08707dc2a25aab42fb">
+        <dex dex="/home/enrico/AndroidStudioProjects/mp4parser_test/app/build/intermediates/pre-dexed/debug/android-ffmpeg-library-cb4e964a1e552d97d8cf371d76b3d3ae8359e67e.jar" />
+    </item>
+
+</items>

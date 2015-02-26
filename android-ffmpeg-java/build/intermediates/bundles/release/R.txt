@@ -1,0 +1,2 @@
+int raw ffmpeg 0x7f020000
+int raw sox 0x7f020001
